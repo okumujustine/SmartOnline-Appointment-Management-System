@@ -7,7 +7,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         var welcomeMessage = "Welcome to cs425 Cty Library \n";
-        System.out.println("Hello world!");
+        System.out.println(welcomeMessage);
 
         var publishers = List.of(
                 new Publisher(101, "Justine", "justine @gmail.com","1234", "781459239"),
